@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>src/Client.cpp</itemPath>
+        <itemPath>src/Client.h</itemPath>
+        <itemPath>src/ConfUtils.cpp</itemPath>
+        <itemPath>src/ConfUtils.h</itemPath>
+        <itemPath>src/Log.cpp</itemPath>
+        <itemPath>src/Log.h</itemPath>
+        <itemPath>src/Makefile.am</itemPath>
+        <itemPath>src/PacketUtils.h</itemPath>
+        <itemPath>src/TrafficSource.cpp</itemPath>
+        <itemPath>src/TrafficSource.h</itemPath>
+        <itemPath>src/Utils.h</itemPath>
+        <itemPath>src/Vatic.cpp</itemPath>
+        <itemPath>src/Vatic.h</itemPath>
+        <itemPath>src/client_program.cpp</itemPath>
+        <itemPath>src/sandbox.cpp</itemPath>
+        <itemPath>src/server_program.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+    </logicalFolder>
+    <itemPath>configure.ac</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-lboost_program_options</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="configure.ac" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ConfUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ConfUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Makefile.am" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PacketUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/TrafficSource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TrafficSource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Vatic.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Vatic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/client_program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sandbox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/server_program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="configure.ac" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ConfUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ConfUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Makefile.am" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PacketUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/TrafficSource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TrafficSource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Vatic.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Vatic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/client_program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sandbox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/server_program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
